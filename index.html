@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUOC BAO EVENT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="stylesheet" href="./assest/css/grid.css"><link rel="stylesheet" href="./assest/css/responsive.css">
+    <link rel="stylesheet" href="./font-icon/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- App -->
+    <div class="app">
+        <div class="header">
+            <div class="grid wide">
+                <nav class="navbar hide-on-mobile-tablet">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item navbar__list-item--saparate">
+                            Vào cửa hàng trên shop Quốc Bảo
+                            <!-- Header Qr code -->
+                            <div class="header__qr">
+                                <img src="./assest/img/qr_code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assest/img/app_store.png" alt="App Store" class="header__qr-download">
+                                    </a>
+                                    
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assest/img/ch_play.png" alt="CH Play" class="header__qr-download">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__list-item">
+                            <span class="navbar__list-title-nohover">Kết nối</span>
+                            <a href="https://www.facebook.com/profile.php?id=100012628541535" class="navbar__list-icon-link">
+                                <i class="navbar__list-icon fa-brands fa-facebook"></i>
+                            </a>
+                            
+                            <a href="https://www.instagram.com/quocbao6340/" class="navbar__list-icon-link">
+                                <i class="navbar__list-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a href="" class="navbar__list-item-link">
+                                <i class="navbar__list-icon fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- THÔNG BÁO NOTIFICATION -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <!-- danh sách các thông báo -->
+                                <ul class="header__notify-list">
+                                    <!-- thông tin từng thông báo -->
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2022/09/gia-y-the-thao-adidas-duramo-sl-ma-u-den-size-37-6327c310dd989-19092022081704.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Giày Thể Thao Adidas Duramo SL Màu Đen Size 37</span>
+                                                <span class="header__notify-descriotion"> Đã Giao Hàng Thành Công</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://product.hstatic.net/1000383583/product/_mg_9955_fb_7ed98b4e482647edb6947927b6c5078d_master.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Áo Khoác The Weeé Varsity - Black</span>
+                                                <span class="header__notify-descriotion"> Đã Giao Hàng Thành Công</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://product.hstatic.net/1000096703/product/1_c4ec52088bdc4371a108e6d7445a6658_master.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Quần Jean Nam QJD0019</span>
+                                                <span class="header__notify-descriotion">Quần Jean Nam QJD0019</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-header">
+                                    <a href="" class="text-decoration-none"><h3 class="center">Xem Tất Cả</h3></a>
+                                </footer>
+                            </div>
+                            <!--  KẾT THÚC PHÂN NOTIFICATION -->
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="" class="navbar__list-item-link">
+                                <i class="navbar__list-icon fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="navbar__list-item navbar__list-item--strong navbar__list-item--saparate js-register">Đăng ký</li>
+                        <li class="navbar__list-item navbar__list-item--strong js-login">Đăng nhập</li>
+                    </ul>
+                </nav>
+
+                <div class="search">
+                        <label for="header__mobile-search-checkbox" class="header__mobile-search">
+                            <i class="header__mobile-search-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </label>
+
+                        <div class="search__logo hide-on-tablet">
+                            <!-- <i class="fa-solid fa-gamepad search__logo-icon"></i> -->
+                            <!-- <img src="https://shopgarena.net/wp-content/uploads/2022/08/Hinh-nen-dong-Lien-Quan-ngau-nhat.gif" alt="" class="search__logo-icon"> -->
+                            <a href="https://www.facebook.com/profile.php?id=100012628541535" class="search__logo-name">
+                                <span></span><span></span><span></span><span></span>
+                                QUỐC BẢO</a>
+                        </div>
+                    <input type="checkbox" hidden id="header__mobile-search-checkbox" class="header-search__checkbox">
+                    <div class="search__search">
+                        <div class="search__search-wrap">
+                            <input type="text" class="search__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <div class="wrap--animation"></div>
+                            <!-- search history -->
+                            <div class="search__search-history">
+                                <div class="search__search-history-heading">Lịch sử tìm kiếm</div>
+                                <ul class="search__search-history-list">
+                                    <li class="search__search-history-item">
+                                        <a href="">Giày adidas</a>
+                                    </li>
+
+                                    <li class="search__search-history-item">
+                                        <a href="">Áo khoác bomber nam đẹp</a>
+                                    </li>
+
+                                    <li class="search__search-history-item">
+                                        <a href="">Quần tây âu nam</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search__search-select">
+                            <span class="search__search-select-lable">Trong shop</span>
+                            <i class="search__search-select-icon fa-sharp fa-solid fa-caret-down"></i>
+
+                            <ul class="search__search-option">
+                                <li class="search__search-option-item">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check open-ilbl"></i>
+                                </li>
+    
+                                <li class="search__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="search__search-btn">
+                            <i class="search__search-btn-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="search__cart">
+                        <div class="search__cart-wrap">
+                            <i class="search__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="search__cart-notice">3</span>
+                            <!-- No cart: search__cart-list-no-cart -->
+                            <div class="search__cart-list">
+                                <img src="./assest/img/no_cart.png" alt="" class="search__cart-no-cart-img">
+                                <span class="search__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+                                <!-- cart item -->
+                                <h4 class="search__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="search__cart-list-item">
+                                    <li class="search__cart-item">
+                                        <img src="https://product.hstatic.net/1000383583/product/_mg_9955_fb_7ed98b4e482647edb6947927b6c5078d_master.jpg" alt="" class="search__cart-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <h5 class="search__cart-item-name">Áo Khoác The Weeé Varsity Áo Khoác The Weeé Varsity Áo Khoác The Weeé Varsity</h5>
+                                                <div class="search__cart-item-order">
+                                                    <span class="search__cart-item-price">1.000.000đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="search__cart-item-delete">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="search__cart-item">
+                                        <img src="https://product.hstatic.net/1000096703/product/1_c4ec52088bdc4371a108e6d7445a6658_master.jpg" alt="" class="search__cart-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <h5 class="search__cart-item-name">Quần Jean Nam QJD0019</h5>
+                                                <div class="search__cart-item-order">
+                                                    <span class="search__cart-item-price">2.000.000đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="search__cart-item-delete">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="search__cart-item">
+                                        <img src="https://product.hstatic.net/1000383583/product/_mg_9955_fb_7ed98b4e482647edb6947927b6c5078d_master.jpg" alt="" class="search__cart-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <h5 class="search__cart-item-name">Áo Khoác The Weeé Varsity</h5>
+                                                <div class="search__cart-item-order">
+                                                    <span class="search__cart-item-price">1.000.000đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="search__cart-item-delete">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="search__cart-item">
+                                        <img src="https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2022/09/gia-y-the-thao-adidas-duramo-sl-ma-u-den-size-37-6327c310dd989-19092022081704.jpg" alt="" class="search__cart-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <h5 class="search__cart-item-name">Giày Thể Thao Adidas Duramo</h5>
+                                                <div class="search__cart-item-order">
+                                                    <span class="search__cart-item-price">1.000.000đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="search__cart-item-delete">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="search__cart-item">
+                                        <img src="https://product.hstatic.net/1000096703/product/1_c4ec52088bdc4371a108e6d7445a6658_master.jpg" alt="" class="search__cart-img">
+                                        <div class="search__cart-item-info">
+                                            <div class="search__cart-item-head">
+                                                <h5 class="search__cart-item-name">Quần Jean Nam QJD0019</h5>
+                                                <div class="search__cart-item-order">
+                                                    <span class="search__cart-item-price">2.000.000đ</span>
+                                                    <span class="search__cart-item-multiply">x</span>
+                                                    <span class="search__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="search__cart-item-body">
+                                                <span class="search__cart-item-description">
+                                                    Phân loại: Bạc
+                                                </span>
+                                                <span class="search__cart-item-delete">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="search__cart-view btn btn--primary"><span>Xem giỏ hàng</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên Quan</a>
+                </li>
+                
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới Nhất</a>
+                </li>
+                
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán Chạy</a>
+                </li>
+                
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Giá 
+                        <i style="margin-left: 4px;" class="select-input__icon fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category-heading">
+                                <i class="category-heading__icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Áo Khoác</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Quần Tây</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Giày Thể Thao</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Áo Thun</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Áo Sơ Mi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Quần Ngắn</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn"><span>Phổ biến</span></button>
+                            <button class="home-filter__btn btn"><span>Mới nhất</span></button>
+                            <button class="home-filter__btn btn"><span>Bán chạy</span></button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fa-solid fa-caret-down"></i>
+
+                                <!-- list option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="select-input__icon fa-solid fa-caret-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="select-input__icon fa-solid fa-caret-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Khoác</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Quần Tây</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Giày TD</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Thun</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Sơ Mi</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Quần Ngắn</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Khoác</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Quần Tây</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Giày TD</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Thun</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Áo Sơ Mi</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Quần Ngắn</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://lzd-img-global.slatic.net/g/p/3f1832ccad2de3019933933287d11e06.png_720x720q80.jpg_.webp);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Giày Thể Thao Adidas Grand Court F36483F3 Màu Trắng Size 42</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://salt.tikicdn.com/ts/product/b1/4b/2b/44697f53aac2c6ff182818cef3b14984.png);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Giày Thể Thao Big Ball Chunky Cookie Boston Red Sox - Giày Sneaker Cho Nam, Nữ, Unisex</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">100 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">42%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://lzd-img-global.slatic.net/g/p/e7d210bac269dd54f23ec11d6c50b7c0.png_720x720q80.jpg_.webp);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Giày thể thao nam thời trang , Sneakers nam nữ hot Alami Gtt11</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.500.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">50 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Nike</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">33%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(http://cdn-img-v2.webbnc.net/uploadv2/web/10/10769/product/2019/10/22/05/45/1571766347_32shhm941-50i_1.png);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">DÉP MLB NEW YORK YANKEES NEW MOUND MONO SLIPPERS - IVORY</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">280 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://product.hstatic.net/1000383583/product/_mg_9955_fb_7ed98b4e482647edb6947927b6c5078d_master.jpg);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo Khoác The Weeé Varsity - Black</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">188 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://umove.com.vn/mediacenter/media/images/503/products/503/21/ao0340002lb-1512187264.png);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo khoác nam chống nước</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://bizweb.dktcdn.net/thumb/1024x1024/100/290/346/products/quan-au-nam-aristino-atrr05-11.png?v=1621785110933);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Quần Tây Nam Aristino ATRR05 Quần Âu Nam Màu Xanh Tím Than 72 Form Dáng Regular Cạp Tăng Đơ Chất Liệu Polyester</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://fady.cdn.vccloud.vn/wp-content/uploads/2020/10/SP4-02-2.png);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo thun nam màu trắng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://sakos.vn/wp-content/uploads/2022/07/balo-laptop-Sakos-Hero-nau-2.png);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Balo laptop Sakos Hero</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://lzd-img-global.slatic.net/g/p/69063535f4cbc5de643b5e6fcea8305e.png_720x720q80.jpg_.webp);">
+                                            <img src="https://cf.shopee.vn/file/2ec256a5cfd2ebf16535275ca3c69df9" alt="" class="home-product-item__img-sub">
+                                        </div>
+                                        <h4 class="home-product-item__name">Quần đùi nam quần short runing</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">990.000đ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__action-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <!-- <i class="fa-solid fa-heart"></i> -->
+                                            </span>
+    
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+    
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+    
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Adidas</span>
+                                            <span class="home-product-item__country">Mỹ</span>
+                                        </div>
+    
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check open-ilbl"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+    
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__persent">43%</span>
+                                            <span class="home-product-item__label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fa-solid fa-caret-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fa-solid fa-caret-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row footer-top">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm Sóc Khách Hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Quốc Bảo Shop Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới Thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới Thiệu Về Shop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh Mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Áo Sơ Mi Nam</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Quần Đùi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Áo Khoác</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo Giỏi Chúng Tôi Trên</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="https://www.facebook.com/profile.php?id=100012628541535" class="footer-item__link">
+                                    <i class="footer-item__link-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://www.instagram.com/quocbao6340/" class="footer-item__link">
+                                    <i class="footer-item__link-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="https://www.facebook.com/profile.php?id=100012628541535" class="footer-item__link">
+                                    <i class="footer-item__link-icon fa-brands fa-linkedin"></i>
+                                    LinkedIn
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Vào Cửa Hàng Trên Ứng Dụng</h3>
+                        <div class="footer__download">
+                            <a href="" class="footer-img__link">
+                                <img src="./assest/img/qr_code.png" alt="Download Qr" class="footer__download-qr-img">
+                            </a>
+                            
+                        <div class="footer__download-apps">
+                            <a href="" class="footer-img__link">
+                                <img src="./assest/img/ch_play.png" alt="Chplay" class="footer__download-apps-img">
+                            </a>
+                            <a href="" class="footer-img__link">
+                                <img src="./assest/img/app_store.png" alt="Store" class="footer__download-apps-img">
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="grid wide">
+                    <div class="footer-bottom-title">
+                        <h3 class="footer-bottom__heading">CHÍNH SÁCH BẢO MẬT</h3>
+                        <h3 class="footer-bottom__heading">QUY CHẾ HOẠT ĐỘNG</h3>
+                        <h3 class="footer-bottom__heading">CHÍNH SÁCH VẬN CHUYỂN</h3>
+                        <h3 class="footer-bottom__heading">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</h3>
+                    </div>
+
+                    <div class="footer-bottom__company">
+                        <img src="https://cf.shopee.vn/file/d4bbea4570b93bfd5fc652ca82a262a8" alt="" class="foorter-bottom__company-img">
+                        <h3 class="footer-bottom__company-name">Công Ty TNHH Quốc Bảo</h3>
+                    </div>
+
+                    <div class="footer-bottom__description">
+                        <p>Địa chỉ: Tầng 1 phòng 108, Tòa nhà Capital Place, số 614/10 đường Tô Ký, Thành Phố HCM, Việt Nam. Tổng đài hỗ trợ: 0353426938 - Email: hbao27121@gmail.com</p>
+                        <p>Chịu Trách Nhiệm Quản Lý Nội Dung: Huỳnh Quốc Bảo - Điện thoại liên hệ: 0976112401</p>
+                        <p>© 2022 - Bản quyền thuộc về Công ty TNHH Quốc Bảo</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <!-- register form -->
+            <div class="auth-form modal-register">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn js-login-in-register">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder=" ">
+                            <label for="name" class="from-label">Nhập vào email</label>
+                        </div>
+                        
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder=" ">
+                            <label for="name" class="from-label">Nhập vào mật khẩu</label>
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder=" ">
+                            <label for="name" class="from-label">Xác nhận mật khẩu</label>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với Quốc Bảo về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls auth-form__controls--register">
+                        <button class="btn auth-form__controls-back js-back"><span>TRỞ LẠI</span></button>
+                        <button class="btn btn--primary"><span>ĐĂNG KÝ</span></button>
+                    </div>    
+                </div>
+                
+                <div class="auth-form__socials auth-form__socials--register">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                       <span> <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i></span>
+                        <span>Kết nối với Facebook</span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <span><i class="auth-form__socials-icon fa-brands fa-google"></i></span>
+                        <span>Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- login form -->
+            <div class="auth-form modal-login">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn js-register-in-login">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder=" ">
+                            <label for="name" class="from-label">Nhập vào email</label>
+                        </div>
+                        
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder=" ">
+                            <label for="name" class="from-label">Nhập vào mật khẩu</label>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-link--to">Quên mật khẩu</a>
+                            <a href="" class="auth-form__help-link auth-form__help-link--th">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back js-back"><span>TRỞ LẠI</span></button>
+                        <button class="btn btn--primary"><span>ĐĂNG NHẬP</span></button>
+                    </div>    
+                </div>
+                
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <span><i class="auth-form__socials-icon fa-brands fa-square-facebook"></i></span>
+                       <span> Đăng nhập với Facebook</span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <span><i class="auth-form__socials-icon fa-brands fa-google"></i></span>
+                        <span>Đăng nhập với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scrip -->
+    <script>
+        // dánh sách các biến
+        const register = document.querySelector('.js-register');
+        const login = document.querySelector('.js-login');
+        const modal = document.querySelector('.modal');
+        const modalRegister = document.querySelector('.modal-register');
+        const modalLogin = document.querySelector('.modal-login');
+        const modalOverlay = document.querySelector('.modal__overlay');
+        const backs = document.querySelectorAll('.js-back');
+        const loGinInReGister = document.querySelector('.js-login-in-register');
+        const reGisTerInLogIn = document.querySelector('.js-register-in-login');
+        //hàm hiện nguyên lý thêm class chưa display:block;
+        function showModalandRegister() {
+            modal.classList.add('open')
+            modalRegister.classList.add('open-bl')
+        }
+
+        function showModalandLogin() {
+            modal.classList.add('open')
+            modalLogin.classList.add('open-bl')
+        }
+        
+        function hidenModal() {
+            modal.classList.remove('open');
+            modalRegister.classList.remove('open-bl');
+            modalLogin.classList.remove('open-bl');
+        }
+        
+        function showLoginInRegister() {
+            modalRegister.classList.remove('open-bl');
+            modalLogin.classList.add('open-bl')
+        }
+
+        function showRegisterInLoGin() {
+            modalLogin.classList.remove('open-bl')
+            modalRegister.classList.add('open-bl');
+        }
+        //hàm xóa nguyên lý xóa class chưa display:block;
+        //phần sử lý
+        register.addEventListener('click', showModalandRegister);
+        login.addEventListener('click', showModalandLogin);
+        modalOverlay.addEventListener('click', hidenModal);
+        for(const back of backs) {
+            back.addEventListener('click', hidenModal);
+        }
+        loGinInReGister.addEventListener('click', showLoginInRegister);
+        reGisTerInLogIn.addEventListener('click', showRegisterInLoGin);
+    </script>
+</body>
+</html>
